@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+<div class="weather-app">
+<h2 class="section-title">Введите название города</h2>
+ <input type="text" id="input" placeholder="Введите название города (англ.)..."/>
+ <button id="btn" onclick="showDateTime();">OK</button>
+<p class="text-center">Прогноз на 4 дня <span id="message"></span></p>	
+	<div id="tablo">            
+		<div class="day">
+			  <img id="tmp4"/><br>
+			 <p id="day1"></p>
+			 <div id="demo7"></div>
+			 <div id="demo5" ></div>
+			 <div id="demo6"></div>
+			 <div id="demo4"></div>
+		</div>
+
+		<div class="day">
+			   <img id="tmp5"/><br>
+			 <p id="day2"></p>
+			 <div id="demo10"></div>
+			 <div id="demo11"></div>
+			 <div id="demo8"></div>
+			 <div id="demo9"></div>
+		</div> 
+
+		<div class="day">
+			   <img id="tmp6"/><br>
+			 <p id="day3"></p>
+			 <div id="demo14"></div>
+			 <div id="demo15"></div>
+			 <div id="demo12"></div>
+			 <div id="demo13"></div>
+		</div> 
+
+		<div class="day">
+			   <img id="tmp7"/><br>
+			 <p id="day4"></p>
+			 <div id="demo18"></div>
+			 <div id="demo19"></div>
+			 <div id="demo16"></div>
+			 <div id="demo17"></div>
+		</div>
+  </div>
+</div>
+  </div>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
