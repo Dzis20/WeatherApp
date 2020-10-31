@@ -1,0 +1,146 @@
+body {
+    background-color: #0B1D26;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h2.section-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.weather-app {
+    margin-top: 50px;
+    border: 2px solid #fff;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+.day {
+    border-radius:4px;
+    text-align:center;
+    padding:20px;
+    margin-bottom: 20px;
+    width:auto;
+    border: 1px solid #fff;
+}
+#tablo {
+   display: none;
+   flex-flow: row wrap;
+   align-items: stretch;
+   justify-content: space-around;
+}
+
+input{
+    font-size:16px;
+    border: solid 2px #fff;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+}
+input + p {
+    margin-bottom: 20px;
+}
+#btn {
+    height: 36px;
+    width: 100%;
+    color: #fff;
+    background-color: inherit;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+}
+#btn + p {
+    text-align: center;
+    font-size:32px;
+    margin-bottom: 50px;
+}
+
+#message {
+    color:#fff;
+    font-size: inherit;
+    padding:10px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .day {
+    border-radius:4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align:center;
+    padding:20px;
+    margin-bottom: 20px;
+    width:auto;
+}
+ .day, #demo {
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #6600FF 45%, #6600CC 75%);
+} 
+#tablo {
+   display: none;
+   flex-flow: row wrap;
+   align-items: stretch;
+   justify-content: space-around;
+}
+#day1, #day2, #day3, #day4 {
+   font-size:1.8em;
+   color:#e8ffe8;
+   text-shadow: 0 0 5px #070707;
+} 
+#demo7, #demo6, #demo10, #demo8, #demo14, #demo12, #demo18, #demo16 {
+   font-size:.8em;
+   color:#FF66FF;
+}
+#demo5, #demo11, #demo15, #demo19 {
+   font-size:1.3em;
+   color:#0768f0;
+}
+#demo4, #demo9, #demo13, #demo17 {
+   font-size:1.3em;
+   color:#ff00bb;
+}
+input{
+ font-size:16px;
+ font-weight:bold;
+ font-style:italic;
+ border: solid 2px #68bcff;
+ outline: 0;
+ width: 30%;
+ height: 36px;
+ border-top-left-radius: 50px;
+ border-bottom-left-radius: 50px;
+ padding-left: 40px;
+ margin: 10px 0px;
+ z-index: 9999999;
+}
+#cityB {
+ height: 40px;
+ width: 40px;
+ border: solid 2px #68bcff;
+ border-left: none;
+ outline: 0;
+ border-top-right-radius: 50px;
+ border-bottom-right-radius: 50px;
+ padding-right: 5px;
+ margin-left:-6px;
+ background: #68bcff;
+ color: #fff;
+}
+.text-center {
+ background: radial-gradient(circle at 65% 15%, #6699FF, #660066);
+ font-family:Open Sans;
+ font-size:32px;
+ color: #ffffff;
+ text-shadow: 1px 1px 2px black, 0 0 1em #ffffff;
+ text-align:center;
+}
+ */
